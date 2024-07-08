@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #1111;
+}
+
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100px;
+    
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5;
+}
+
+.logo{
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 7em;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -150px;
+}
+.navbar li{
+    list-style: none;
+    padding-right: 40px;
+}
+.paragraphe {
+    margin-left: 10px;
+    color: black;
+    margin-top: 20px;
+    padding-left: 200px;
+    font-weight: bold;
+}
+.navbar a{
+   color: white;
+    text-decoration: none;
+    margin-left: 300px;
+    font-weight: 700;
+}
+
+.btn-bouton{
+    padding: 10px 20px;
+    background: rgb(53, 216, 32);
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-left: 700px;
+}
+.cadre{
+    margin-top: 20px;
+}
+.img{
+    margin-left: 1375px;
+    margin-top: -200px;
+}
+.cadre .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.cadre .contenu .box{
+    width: 350px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.cadre .contenu .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color: black;
+}
+.cadre .contenu .box .cadre1{
+    font-weight: bold;
+    background-color: rgb(48, 48, 243);
+}
+.cadre .contenu .box .cadre2 .title2{
+    color: rgb(7, 189, 7);
+    font-weight: bold;
+}
+.cadre .contenu .box .cadre3 .title3{
+    color: rgb(7, 189, 7);
+    font-weight: bold;
+}
+.cadre .contenu .box .text h3{
+    font-weight: 400;
+}
+
+.btn2{
+    font-size: 1em;
+    color: white;
+    background: blue;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    }
+
+    .btn2:hover{
+        letter-spacing: 4px;
+    }
+/*essai*/

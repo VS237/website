@@ -1,0 +1,385 @@
+.pages{
+  display: block;
+}
+
+/*First-Page Formating*/
+
+.first-page{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, black, rgb(5, 32, 71), transparent );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+/*.first-page-background-image{
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 50px;
+  z-index: -1;
+}*/
+
+.first-page-sidebar-left{
+  width: 150px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.294);
+  z-index: 1;
+}
+
+.first-page-sidebar-right{
+  width: 150px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.294);
+  z-index: 1;
+}
+
+.first-page-menu{ 
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-page-menu-upper-section{
+  display: grid;
+  grid-template-columns: 1fr 350px;
+}
+
+.first-page-menu-upper-section-left{}
+
+.first-page-menu-upper-section-right{
+  text-align: left;
+  margin-top: 5px;
+  margin-right: ;
+  
+}
+
+.first-page-menu-lower-section{
+  display: grid;
+  grid-template-columns: 70px 1fr 320px;
+}
+
+.first-page-menu-lower-section-left{
+  text-align: left;
+  margin-top: 15px;
+}
+
+.first-page-menu-lower-section-middle li{
+  display: inline-block;
+  margin-right: 15px;  
+  text-decoration: none;
+}
+
+li a{
+  text-decoration: none;
+}
+
+.first-page-menu-lower-section-right{
+  text-align: left;
+  margin-top: 15px;
+}
+
+.first-page-menu-lower-section p{
+  display: inline-block;
+  margin-right: 15px;  
+}
+
+.first-page-text{
+  
+  margin-left: 150px;
+  
+  
+}
+
+.enlargement-div{
+  margin-top: 160px;
+}
+
+.enlargement-div p{
+  color: transparent;
+}
+
+/*First-Page ElementsDesigning*/
+
+*{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  
+}
+
+.first-page-menu-image-left1{
+  width: 20px;
+}
+
+.first-page-menu-image-left2{
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 20px;
+}
+.first-page-menu-image-right{
+  margin-right: 20px;
+  width: 20px;
+}
+
+.Conbiz-image{
+
+}
+
+.first-page-menu-lower-section-image-right{
+  width: 20px;
+  margin-right: 20px;
+}
+
+.first-page-text-paragraph1{
+  display:grid;
+  grid-template-columns: 400px 600px;
+}
+
+.first-page-image{
+  width: 100%;
+}
+
+.text-paragraph1-advisor{
+  color: transparent;
+  color: rgba(0, 0, 0, 0.545);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-text-stroke: 1px white;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.first-page-text-paragraph1 p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.first-page-text-paragraph1-line1{
+  margin-top: 40px;
+}
+
+.first-page-text-paragraph2 p{
+  color: transparent;
+  color: rgba(0, 0, 0, 0.545);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-text-stroke: 1px white;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button{
+  border: none;
+  width: 75px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.orange-button{
+  background-color: rgb(255, 72, 0);
+}
+
+.yellow-button{
+  background-color: orange;
+}
+
+/*Second-Page Formating*/
+.second-page{
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 300px 300px;
+  
+  color: black;
+  margin-top: 50px;
+  margin-left:150px ;
+  margin-right: 140px;
+  
+}
+
+.second-page-text-paragraph1{
+ margin-bottom: 20px;
+}
+
+.second-page-text-paragraph1 p{
+  font-weight: bold;
+  color: rgb(5, 32, 71);
+  font-size: 40px;
+  margin: 0px;
+}
+
+.second-page-text-paragraph2{
+margin-bottom: 20px;
+}
+
+.second-page-text-paragraph2 p{
+  color: black;
+  margin: 0px;
+}
+
+.second-page-text-paragraph3{
+  color: black;
+  margin-bottom: 30px;
+}
+
+.second-page-text-paragraph4{
+margin-bottom: 40px;
+}
+
+.second-page-text-paragraph4 label{
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.second-page-grid1{
+  display: flex;
+  flex-direction: column;
+}
+
+.second-page-grid1-image1{
+  width: 250px;
+  height: 250px;
+  background-image: url("téléchargement (2).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  
+}
+
+.second-page-grid1-image2{
+  width: 250px;
+  height: 250px;
+  background-image: url("images.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.second-page-grid2{
+  display: flex;
+  flex-direction: column;
+}
+
+.second-page-grid2-image1{
+  width: 250px;
+  height: 250px;
+  background-image: url("téléchargement.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.second-page-grid2-image2{
+  width: 250px;
+  height: 250px;
+  background-image: url("images (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+/*Third-Page*/
+.third-page{
+  display: grid;
+  grid-template-rows: 1fr 1fr:
+}
+
+.third-page-grid1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space between;
+  margin-top: 120px;
+}
+
+.paragraph{
+  color: rgb(5, 32, 71);
+  font-size: 40px;
+  margin-left:150px;
+  margin-right: 400px;
+  
+}
+
+.third-page-grid2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space between;
+  margin-top: 20px;
+}
+
+.text1{
+  background: transparent;
+  border: solid;
+  width: 100%;
+  height: 100%;
+  border: solid;
+  display: inline-block;
+  color: rgb(5, 32, 71);
+  margin-left:150px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.text2{
+  border: solid;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: rgb(5, 32, 71);
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.text3{
+  border: solid;
+  border: solid;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: rgb(5, 32, 71);
+  margin-right:150px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
